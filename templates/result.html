@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Flight Price Prediction</title>
+			
+		<style>
+		
+		
+		body{
+		background-image: url('static/15.jpg');
+		background-repeat: no-repeat;	
+		background-attachment: fixed;
+		background-size: cover
+		}
+		
+		.predbox{
+		animation:predanm 10s infinite;
+		height:100px;
+		margin-top:40px;
+		}
+		
+		
+		h2{
+		font-size:2.1rem;
+		letter-spacing:0.5rem;
+		text-align:center;
+		color:white;
+		padding-top:30px;
+		}
+		
+		@keyframes predanm{
+		0%{ background-color:Dark Sand;}
+		20%{ background-color:Dark Sand;}
+		40%{ background-color:Dark Sand;}
+		60%{background-color:grey;}
+		800%{ background-color:99738E;}
+		100%{ background-color:99738E;}
+		
+		}
+		
+		.result{
+		text-align:center;
+		margin-top:120px;
+		font-size:30px;
+		font-family:Calibri;
+		font-family: Comic Sans MS;
+		color:yellow;
+		}
+				
+	
+		.footer{
+		animation:footeranm 10s infinite;
+		text-align:center;
+		margin-top:230px;
+		background-color: light-grey;
+		height:60px;
+		font-size:20px;
+		font-family: Comic Sans MS;
+		color:white;
+		}
+		
+		@keyframes footeranm{
+		0%{ background-color:Dark Sand;}
+		20%{ background-color:Dark Sand;}
+		40%{ background-color:Dark Sand;}
+		60%{background-color:grey;}
+		800%{ background-color:99738E;}
+		100%{ background-color:99738E;}
+		
+		}
+		
+		</style>
+
+</head>
+
+
+
+
+<body>
+<div class='predbox'>
+			<h2 style="font-family:Comic Sans MS">Welcome To The Airline Price Prediction Project</h2>
+</div>
+
+
+				<b><p class='result'>The Price will Betwwen: {{ price1 }} to {{ price2 }}</p></b>
+
+				<div class='footer'>
+				
+				<a href="https://www.kaggle.com/ksquare30">
+				<img alt='Kaggle link' src='static/kaggle1.png' width='20' height='20' style="border:2px solid black"></a>
+				
+				<a href="https://github.com/kamalsingh1996">
+				<img alt='Github link' src='static/g1.jpg' width='23' height='20' style="border:2px solid black"></a>
+				
+				<a href="https://www.linkedin.com/in/k-square-69a72717a/">
+				<img alt='LinkdIn link' src='static/lkdn1.jpg' width='20' height='20' style="border:2px solid black"></a><br>
+				<b>Made by Kamal Singh</b>
+				</div>
+
+</body>
+</html>
